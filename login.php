@@ -2,7 +2,7 @@
 <?php
   $annettu_salasana=$_POST['password'];
   $annettu_tunnus=$_POST['username'];
-  $oikea_salasana='sala12';
+  $oikea_salasana='sala123';
   if($annettu_salasana == $oikea_salasana) {
     session_start();
     $SESSION['logged_in']=true;
