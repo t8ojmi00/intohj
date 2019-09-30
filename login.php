@@ -7,10 +7,10 @@
     session_start();
     $SESSION['logged_in']=true;
     $SESSION['username']=$annettu_tunnus;
-    echo '<p>Tervetuloa, olet kirjautunut sisään</p>';
+    echo '<p>Tervetuloa, olet kirjautunut sisään.</p>';
   }
   else {
-    echo '<p>Tunnus tai salasana väärin</p>';
+    echo '<p>Tunnus tai salasana väärin.</p>';
   }
  ?>
  <?php include "footer" ?>
