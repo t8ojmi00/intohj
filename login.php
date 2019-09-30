@@ -10,7 +10,7 @@
     echo '<p>Tervetuloa, olet kirjautunut sisään.</p>';
   }
   else {
-    echo '<p>Tunnus tai salasana väärin</p>';
+    echo '<p>Tunnus tai salasana väärin.</p>';
   }
  ?>
  <?php include "footer" ?>

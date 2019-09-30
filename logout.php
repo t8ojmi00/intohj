@@ -4,6 +4,6 @@
   session_destroy();
  ?>
  <p>
-   Kirjauduit ulos.
+   Olet kirjautunut ulos, tervetuloa uudelleen.
  </p>
  <?php include "footer.php" ?>
