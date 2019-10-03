@@ -41,7 +41,7 @@
 		?>
 	</p>
 	<p>
-		Tulostetaan nimet foreach loopilla <br>
+		Tulostetaan nimet foreach loopilla. <br>
 		<?php
 		foreach ($assosiative as $row) {
 			echo $row['etunimi'].' '.$row['sukunimi'].'<br>';

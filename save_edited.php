@@ -9,7 +9,7 @@ if($stmt->execute()){
 }
 else {
   include "menu.php";
-  echo 'Päivitys epäonnistui';
+  echo 'Päivitys epäonnistui.';
   include "footer.php";
 }
 ?>
