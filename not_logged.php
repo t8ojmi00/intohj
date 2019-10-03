@@ -1,5 +1,6 @@
+
 <?php include "menu.php"; ?>
 <p>
-  Sinun pitää kirjautua sisään.
+Sinun pitää olla kirjautunut päästäksesi tälle sivulle.
 </p>
-<?php include "footer.php" ?>
+<?php include "footer.php"; ?>
